@@ -423,7 +423,7 @@ body
 {
    color: #F5F5F5;
 }
-#wb_ratingsLayoutGrid1
+#wb_skills1LayoutGrid
 {
    clear: both;
    position: relative;
@@ -431,14 +431,14 @@ body
    display: table;
    text-align: center;
    width: 100%;
-   background-color: #FFFFFF;
+   background-color: transparent;
    background-image: none;
-   border: 0px solid #F1F1F1;
+   border: 0px solid #CCCCCC;
    border-radius: 0px;
    box-sizing: border-box;
    margin: 0;
 }
-#ratingsLayoutGrid1
+#skills1LayoutGrid
 {
    box-sizing: border-box;
    padding: 50px 15px 50px 15px;
@@ -446,12 +446,12 @@ body
    margin-left: auto;
    max-width: 1140px;
 }
-#ratingsLayoutGrid1 > .row
+#skills1LayoutGrid > .row
 {
    margin-right: -15px;
    margin-left: -15px;
 }
-#ratingsLayoutGrid1 > .row > .col-1
+#skills1LayoutGrid > .row > .col-1, #skills1LayoutGrid > .row > .col-2, #skills1LayoutGrid > .row > .col-3
 {
    box-sizing: border-box;
    font-size: 0;
@@ -460,868 +460,187 @@ body
    padding-left: 15px;
    position: relative;
 }
-#ratingsLayoutGrid1 > .row > .col-1
+#skills1LayoutGrid > .row > .col-1, #skills1LayoutGrid > .row > .col-2, #skills1LayoutGrid > .row > .col-3
 {
    float: left;
 }
-#ratingsLayoutGrid1 > .row > .col-1
+#skills1LayoutGrid > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   width: 100%;
-   text-align: left;
+   width: 16.66666667%;
+   text-align: center;
 }
-#ratingsLayoutGrid1:before,
-#ratingsLayoutGrid1:after,
-#ratingsLayoutGrid1 .row:before,
-#ratingsLayoutGrid1 .row:after
+#skills1LayoutGrid > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 66.66666667%;
+   text-align: center;
+}
+#skills1LayoutGrid > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 16.66666667%;
+   text-align: center;
+}
+#skills1LayoutGrid:before,
+#skills1LayoutGrid:after,
+#skills1LayoutGrid .row:before,
+#skills1LayoutGrid .row:after
 {
    display: table;
    content: " ";
 }
-#ratingsLayoutGrid1:after,
-#ratingsLayoutGrid1 .row:after
+#skills1LayoutGrid:after,
+#skills1LayoutGrid .row:after
 {
    clear: both;
 }
 @media (max-width: 768px)
 {
-#ratingsLayoutGrid1 > .row > .col-1
+#skills1LayoutGrid > .row > .col-1, #skills1LayoutGrid > .row > .col-2, #skills1LayoutGrid > .row > .col-3
 {
    float: none;
-   width: 100% !important;
-}
-}
-#ratingsLabel1
-{
-   box-sizing: border-box;
-   margin: 0;
-   border: 0px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: transparent;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-   text-align: left;
-   vertical-align: top;
-   padding: 4px 4px 4px 4px;
-}
-#ratingsLabel1:focus
-{
-   outline: 0;
-}
-#wb_ratingsIcon1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-   border-radius: 0px;
-   text-align: center;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#ratingsIcon1
-{
-   height: 24px;
-   width: 24px;
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: center;
-}
-#ratingsIcon1 i
-{
-   color: #FFA500;
-   display: inline-block;
-   font-size: 24px;
-   line-height: 24px;
-   vertical-align: middle;
-}
-#wb_ratingsIcon1:hover #ratingsIcon1 i
-{
-   color: #FFA500;
-}
-#wb_ratingsIcon2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-   border-radius: 0px;
-   text-align: center;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#ratingsIcon2
-{
-   height: 24px;
-   width: 24px;
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: center;
-}
-#ratingsIcon2 i
-{
-   color: #FFA500;
-   display: inline-block;
-   font-size: 24px;
-   line-height: 24px;
-   vertical-align: middle;
-}
-#wb_ratingsIcon2:hover #ratingsIcon2 i
-{
-   color: #FFA500;
-}
-#wb_ratingsIcon3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-   border-radius: 0px;
-   text-align: center;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#ratingsIcon3
-{
-   height: 24px;
-   width: 24px;
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: center;
-}
-#ratingsIcon3 i
-{
-   color: #FFA500;
-   display: inline-block;
-   font-size: 24px;
-   line-height: 24px;
-   vertical-align: middle;
-}
-#wb_ratingsIcon3:hover #ratingsIcon3 i
-{
-   color: #FFA500;
-}
-#wb_ratingsIcon4
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-   border-radius: 0px;
-   text-align: center;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#ratingsIcon4
-{
-   height: 24px;
-   width: 24px;
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: center;
-}
-#ratingsIcon4 i
-{
-   color: #FFA500;
-   display: inline-block;
-   font-size: 24px;
-   line-height: 24px;
-   vertical-align: middle;
-}
-#wb_ratingsIcon4:hover #ratingsIcon4 i
-{
-   color: #FFA500;
-}
-#wb_ratingsIcon5
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-   border-radius: 0px;
-   text-align: center;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#ratingsIcon5
-{
-   height: 24px;
-   width: 24px;
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: center;
-}
-#ratingsIcon5 i
-{
-   color: #000000;
-   display: inline-block;
-   font-size: 24px;
-   line-height: 24px;
-   vertical-align: middle;
-}
-#wb_ratingsIcon5:hover #ratingsIcon5 i
-{
-   color: #000000;
-}
-#ratingsLabel2
-{
-   box-sizing: border-box;
-   margin: 0;
-   border: 0px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: transparent;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-   text-align: left;
-   vertical-align: top;
-   padding: 4px 4px 4px 4px;
-}
-#ratingsLabel2:focus
-{
-   outline: 0;
-}
-#ratingsLine
-{
-   border-color: #F1F1F1;
-   border-style: solid;
-   border-bottom-width: 5px;
-   border-top: 0;
-   border-left: 0;
-   border-right: 0;
-   height: 0 !important;
-   line-height: 0 !important;
-   margin: 15px 0 15px 0 ;
-   padding: 0;
-}
-#wb_ratingsLayoutGrid2
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
    width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0;
 }
-#ratingsLayoutGrid2
-{
-   box-sizing: border-box;
-   padding: 0 15px 0 15px;
-   margin-right: auto;
-   margin-left: auto;
 }
-#ratingsLayoutGrid2 > .row
+#skills1ProgressbarUI
 {
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#ratingsLayoutGrid2 > .row > .col-1, #ratingsLayoutGrid2 > .row > .col-2, #ratingsLayoutGrid2 > .row > .col-3
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
+   margin: 0 0 10px 0 ;
    position: relative;
 }
-#ratingsLayoutGrid2 > .row > .col-1, #ratingsLayoutGrid2 > .row > .col-2, #ratingsLayoutGrid2 > .row > .col-3
+#skills1ProgressbarUI
 {
-   float: left;
-}
-#ratingsLayoutGrid2 > .row > .col-1
-{
-   background-color: transparent;
+   background-color: #F5F5F5;
    background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 16.66666667%;
-   text-align: left;
-}
-#ratingsLayoutGrid2 > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 66.66666667%;
-   text-align: left;
-}
-#ratingsLayoutGrid2 > .row > .col-3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 16.66666667%;
-   text-align: right;
-}
-#ratingsLayoutGrid2:before,
-#ratingsLayoutGrid2:after,
-#ratingsLayoutGrid2 .row:before,
-#ratingsLayoutGrid2 .row:after
-{
-   display: table;
-   content: " ";
-}
-#ratingsLayoutGrid2:after,
-#ratingsLayoutGrid2 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#ratingsLayoutGrid2 > .row > .col-1, #ratingsLayoutGrid2 > .row > .col-2, #ratingsLayoutGrid2 > .row > .col-3
-{
-   float: none;
-   width: 100% !important;
-}
-}
-#ratingsLabelStars5
-{
-   box-sizing: border-box;
-   margin: 0;
-   border: 0px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: transparent;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-   text-align: left;
-   vertical-align: top;
-   padding: 4px 4px 4px 4px;
-}
-#ratingsLabelStars5:focus
-{
-   outline: 0;
-}
-#ratingsProgressbar5
-{
-   margin: 6px 0 6px 0 ;
-   position: relative;
-}
-#ratingsProgressbar5
-{
-   background-color: #F1F1F1;
-   background-image: none;
-   border: 1px solid #F1F1F1;
+   border: 0px solid #DDDDDD;
    border-radius: 0px;
    overflow: hidden;
 }
-#ratingsProgressbar5 .progress-bar
+#skills1ProgressbarUI .progress-bar
 {
-   background-color: #4CAF50;
+   background-color: #0D6EFD;
    background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
    display: flex;
    flex-direction: column;
-   width: 60%;
+   width: 0%;
    height: 100%;
    justify-content: center;
    overflow: hidden;
    text-align: center;
-   transition: width 0ms linear;
+   transition: width 800ms ease-out;
    white-space: nowrap;
 }
-#ratingsLabelValue5
+#skills1ProgressbarJquery
 {
-   box-sizing: border-box;
-   margin: 0;
-   border: 0px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: transparent;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-   text-align: right;
-   vertical-align: top;
-   padding: 4px 4px 4px 4px;
-}
-#ratingsLabelValue5:focus
-{
-   outline: 0;
-}
-#wb_ratingsLayoutGrid3
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0;
-}
-#ratingsLayoutGrid3
-{
-   box-sizing: border-box;
-   padding: 0 15px 0 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#ratingsLayoutGrid3 > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#ratingsLayoutGrid3 > .row > .col-1, #ratingsLayoutGrid3 > .row > .col-2, #ratingsLayoutGrid3 > .row > .col-3
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
+   margin: 0 0 10px 0 ;
    position: relative;
 }
-#ratingsLayoutGrid3 > .row > .col-1, #ratingsLayoutGrid3 > .row > .col-2, #ratingsLayoutGrid3 > .row > .col-3
+#skills1ProgressbarJquery
 {
-   float: left;
-}
-#ratingsLayoutGrid3 > .row > .col-1
-{
-   background-color: transparent;
+   background-color: #F5F5F5;
    background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 16.66666667%;
-   text-align: left;
-}
-#ratingsLayoutGrid3 > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 66.66666667%;
-   text-align: left;
-}
-#ratingsLayoutGrid3 > .row > .col-3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 16.66666667%;
-   text-align: right;
-}
-#ratingsLayoutGrid3:before,
-#ratingsLayoutGrid3:after,
-#ratingsLayoutGrid3 .row:before,
-#ratingsLayoutGrid3 .row:after
-{
-   display: table;
-   content: " ";
-}
-#ratingsLayoutGrid3:after,
-#ratingsLayoutGrid3 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#ratingsLayoutGrid3 > .row > .col-1, #ratingsLayoutGrid3 > .row > .col-2, #ratingsLayoutGrid3 > .row > .col-3
-{
-   float: none;
-   width: 100% !important;
-}
-}
-#ratingsLabelStars4
-{
-   box-sizing: border-box;
-   margin: 0;
-   border: 0px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: transparent;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-   text-align: left;
-   vertical-align: top;
-   padding: 4px 4px 4px 4px;
-}
-#ratingsLabelStars4:focus
-{
-   outline: 0;
-}
-#ratingsProgressbar4
-{
-   margin: 6px 0 6px 0 ;
-   position: relative;
-}
-#ratingsProgressbar4
-{
-   background-color: #F1F1F1;
-   background-image: none;
-   border: 1px solid #F1F1F1;
+   border: 0px solid #DDDDDD;
    border-radius: 0px;
    overflow: hidden;
 }
-#ratingsProgressbar4 .progress-bar
+#skills1ProgressbarJquery .progress-bar
 {
-   background-color: #2196F3;
+   background-color: #0D6EFD;
    background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
    display: flex;
    flex-direction: column;
-   width: 30%;
+   width: 0%;
    height: 100%;
    justify-content: center;
    overflow: hidden;
    text-align: center;
-   transition: width 0ms linear;
+   transition: width 800ms ease-out;
    white-space: nowrap;
 }
-#ratingsLabelValue4
+#skills1ProgressbarPHP
 {
-   box-sizing: border-box;
-   margin: 0;
-   border: 0px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: transparent;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-   text-align: right;
-   vertical-align: top;
-   padding: 4px 4px 4px 4px;
-}
-#ratingsLabelValue4:focus
-{
-   outline: 0;
-}
-#wb_ratingsLayoutGrid4
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0;
-}
-#ratingsLayoutGrid4
-{
-   box-sizing: border-box;
-   padding: 0 15px 0 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#ratingsLayoutGrid4 > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#ratingsLayoutGrid4 > .row > .col-1, #ratingsLayoutGrid4 > .row > .col-2, #ratingsLayoutGrid4 > .row > .col-3
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
+   margin: 0 0 10px 0 ;
    position: relative;
 }
-#ratingsLayoutGrid4 > .row > .col-1, #ratingsLayoutGrid4 > .row > .col-2, #ratingsLayoutGrid4 > .row > .col-3
+#skills1ProgressbarPHP
 {
-   float: left;
-}
-#ratingsLayoutGrid4 > .row > .col-1
-{
-   background-color: transparent;
+   background-color: #F5F5F5;
    background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 16.66666667%;
-   text-align: left;
-}
-#ratingsLayoutGrid4 > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 66.66666667%;
-   text-align: left;
-}
-#ratingsLayoutGrid4 > .row > .col-3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 16.66666667%;
-   text-align: right;
-}
-#ratingsLayoutGrid4:before,
-#ratingsLayoutGrid4:after,
-#ratingsLayoutGrid4 .row:before,
-#ratingsLayoutGrid4 .row:after
-{
-   display: table;
-   content: " ";
-}
-#ratingsLayoutGrid4:after,
-#ratingsLayoutGrid4 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#ratingsLayoutGrid4 > .row > .col-1, #ratingsLayoutGrid4 > .row > .col-2, #ratingsLayoutGrid4 > .row > .col-3
-{
-   float: none;
-   width: 100% !important;
-}
-}
-#ratingsLabelStars3
-{
-   box-sizing: border-box;
-   margin: 0;
-   border: 0px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: transparent;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-   text-align: left;
-   vertical-align: top;
-   padding: 4px 4px 4px 4px;
-}
-#ratingsLabelStars3:focus
-{
-   outline: 0;
-}
-#ratingsProgressbar3
-{
-   margin: 6px 0 6px 0 ;
-   position: relative;
-}
-#ratingsProgressbar3
-{
-   background-color: #F1F1F1;
-   background-image: none;
-   border: 1px solid #F1F1F1;
+   border: 0px solid #DDDDDD;
    border-radius: 0px;
    overflow: hidden;
 }
-#ratingsProgressbar3 .progress-bar
+#skills1ProgressbarPHP .progress-bar
 {
-   background-color: #00BCD4;
+   background-color: #0D6EFD;
    background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
    display: flex;
    flex-direction: column;
-   width: 10%;
+   width: 0%;
    height: 100%;
    justify-content: center;
    overflow: hidden;
    text-align: center;
-   transition: width 0ms linear;
+   transition: width 800ms ease-out;
    white-space: nowrap;
 }
-#ratingsLabelValue3
+#skills1ProgressbarHtml
 {
-   box-sizing: border-box;
-   margin: 0;
-   border: 0px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: transparent;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-   text-align: right;
-   vertical-align: top;
-   padding: 4px 4px 4px 4px;
-}
-#ratingsLabelValue3:focus
-{
-   outline: 0;
-}
-#wb_ratingsLayoutGrid5
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0;
-}
-#ratingsLayoutGrid5
-{
-   box-sizing: border-box;
-   padding: 0 15px 0 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#ratingsLayoutGrid5 > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#ratingsLayoutGrid5 > .row > .col-1, #ratingsLayoutGrid5 > .row > .col-2, #ratingsLayoutGrid5 > .row > .col-3
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
+   margin: 0 0 10px 0 ;
    position: relative;
 }
-#ratingsLayoutGrid5 > .row > .col-1, #ratingsLayoutGrid5 > .row > .col-2, #ratingsLayoutGrid5 > .row > .col-3
+#skills1ProgressbarHtml
 {
-   float: left;
-}
-#ratingsLayoutGrid5 > .row > .col-1
-{
-   background-color: transparent;
+   background-color: #F5F5F5;
    background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 16.66666667%;
-   text-align: left;
-}
-#ratingsLayoutGrid5 > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 66.66666667%;
-   text-align: left;
-}
-#ratingsLayoutGrid5 > .row > .col-3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 16.66666667%;
-   text-align: right;
-}
-#ratingsLayoutGrid5:before,
-#ratingsLayoutGrid5:after,
-#ratingsLayoutGrid5 .row:before,
-#ratingsLayoutGrid5 .row:after
-{
-   display: table;
-   content: " ";
-}
-#ratingsLayoutGrid5:after,
-#ratingsLayoutGrid5 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#ratingsLayoutGrid5 > .row > .col-1, #ratingsLayoutGrid5 > .row > .col-2, #ratingsLayoutGrid5 > .row > .col-3
-{
-   float: none;
-   width: 100% !important;
-}
-}
-#ratingsLabelStars2
-{
-   box-sizing: border-box;
-   margin: 0;
-   border: 0px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: transparent;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-   text-align: left;
-   vertical-align: top;
-   padding: 4px 4px 4px 4px;
-}
-#ratingsLabelStars2:focus
-{
-   outline: 0;
-}
-#ratingsProgressbar2
-{
-   margin: 6px 0 6px 0 ;
-   position: relative;
-}
-#ratingsProgressbar2
-{
-   background-color: #F1F1F1;
-   background-image: none;
-   border: 1px solid #F1F1F1;
+   border: 0px solid #DDDDDD;
    border-radius: 0px;
    overflow: hidden;
 }
-#ratingsProgressbar2 .progress-bar
+#skills1ProgressbarHtml .progress-bar
 {
-   background-color: #FF9800;
+   background-color: #0D6EFD;
    background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
    display: flex;
    flex-direction: column;
-   width: 4%;
+   width: 0%;
    height: 100%;
    justify-content: center;
    overflow: hidden;
    text-align: center;
-   transition: width 0ms linear;
+   transition: width 800ms ease-out;
    white-space: nowrap;
 }
-#ratingsLabelValue2
+#skills1Label1
 {
    box-sizing: border-box;
    margin: 0;
@@ -1331,106 +650,18 @@ body
    background-image: none;
    color: #000000;
    font-family: Arial;
-   font-weight: normal;
+   font-weight: bold;
    font-style: normal;
    font-size: 16px;
-   text-align: right;
+   text-align: left;
    vertical-align: top;
-   padding: 4px 4px 4px 4px;
+   padding: 8px 0 8px 0;
 }
-#ratingsLabelValue2:focus
+#skills1Label1:focus
 {
    outline: 0;
 }
-#wb_ratingsLayoutGrid6
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0;
-}
-#ratingsLayoutGrid6
-{
-   box-sizing: border-box;
-   padding: 0 15px 0 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#ratingsLayoutGrid6 > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#ratingsLayoutGrid6 > .row > .col-1, #ratingsLayoutGrid6 > .row > .col-2, #ratingsLayoutGrid6 > .row > .col-3
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#ratingsLayoutGrid6 > .row > .col-1, #ratingsLayoutGrid6 > .row > .col-2, #ratingsLayoutGrid6 > .row > .col-3
-{
-   float: left;
-}
-#ratingsLayoutGrid6 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 16.66666667%;
-   text-align: left;
-}
-#ratingsLayoutGrid6 > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 66.66666667%;
-   text-align: left;
-}
-#ratingsLayoutGrid6 > .row > .col-3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 16.66666667%;
-   text-align: right;
-}
-#ratingsLayoutGrid6:before,
-#ratingsLayoutGrid6:after,
-#ratingsLayoutGrid6 .row:before,
-#ratingsLayoutGrid6 .row:after
-{
-   display: table;
-   content: " ";
-}
-#ratingsLayoutGrid6:after,
-#ratingsLayoutGrid6 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#ratingsLayoutGrid6 > .row > .col-1, #ratingsLayoutGrid6 > .row > .col-2, #ratingsLayoutGrid6 > .row > .col-3
-{
-   float: none;
-   width: 100% !important;
-}
-}
-#ratingsLabelStars1
+#skills1Label2
 {
    box-sizing: border-box;
    margin: 0;
@@ -1440,45 +671,18 @@ body
    background-image: none;
    color: #000000;
    font-family: Arial;
-   font-weight: normal;
+   font-weight: bold;
    font-style: normal;
    font-size: 16px;
    text-align: left;
    vertical-align: top;
-   padding: 4px 4px 4px 4px;
+   padding: 8px 0 8px 0;
 }
-#ratingsLabelStars1:focus
+#skills1Label2:focus
 {
    outline: 0;
 }
-#ratingsProgressbar1
-{
-   margin: 6px 0 6px 0 ;
-   position: relative;
-}
-#ratingsProgressbar1
-{
-   background-color: #F1F1F1;
-   background-image: none;
-   border: 1px solid #F1F1F1;
-   border-radius: 0px;
-   overflow: hidden;
-}
-#ratingsProgressbar1 .progress-bar
-{
-   background-color: #F44336;
-   background-image: none;
-   display: flex;
-   flex-direction: column;
-   width: 15%;
-   height: 100%;
-   justify-content: center;
-   overflow: hidden;
-   text-align: center;
-   transition: width 0ms linear;
-   white-space: nowrap;
-}
-#ratingsLabelValue1
+#skills1Label3
 {
    box-sizing: border-box;
    margin: 0;
@@ -1488,14 +692,58 @@ body
    background-image: none;
    color: #000000;
    font-family: Arial;
-   font-weight: normal;
+   font-weight: bold;
    font-style: normal;
    font-size: 16px;
-   text-align: right;
+   text-align: left;
    vertical-align: top;
-   padding: 4px 4px 4px 4px;
+   padding: 8px 0 8px 0;
 }
-#ratingsLabelValue1:focus
+#skills1Label3:focus
 {
    outline: 0;
+}
+#skills1Label4
+{
+   box-sizing: border-box;
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 16px;
+   text-align: left;
+   vertical-align: top;
+   padding: 8px 0 8px 0;
+}
+#skills1Label4:focus
+{
+   outline: 0;
+}
+#wb_skills1Heading
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0;
+   padding: 0 0 30px 0;
+   text-align: left;
+}
+#skills1Heading
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 48px;
+   margin: 0;
+   text-align: left;
+   text-transform: none;
 }
